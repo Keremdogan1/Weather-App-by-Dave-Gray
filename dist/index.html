@@ -17,11 +17,11 @@
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
-    <main>
+    <main class="fade-in">
       <h1 class="offscreen">
         Responsive Weather App Powered by the Open Weather A P I
       </h1>
-      <section id="searchBar" class="searchBar">
+      <section id="searchBar" class="searchBar fade-in">
         <form id="searchBar__form" class="searchBar__form" role="search">
           <label for="searchBar_text" class="offscreen"
             >Enter a new location</label
@@ -51,7 +51,7 @@
       >
       <section
         id="currentForecast"
-        class="currentForecast"
+        class="currentForecast fade-in"
         role="region"
         aria-labelledby="currentForecast__location"
       >
@@ -78,7 +78,7 @@
         </div>
       </section>
       <a href="#dailyForecast" class="skip-link">Skip to Six Day Forecast</a>
-      <nav id="navButtons" class="navButtons">
+      <nav id="navButtons" class="navButtons fade-in">
         <button
           id="getLocation"
           class="button"
@@ -125,10 +125,10 @@
           <i class="fas fa-sync fa-spin none"></i>
         </button>
       </nav>
-      <hr />
+      <hr fade-in />
       <section
         id="dailyForecast"
-        class="dailyForecast"
+        class="dailyForecast fade-in"
         role="region"
         aria-labelledby="dailyForecast__title"
       >
